@@ -11,19 +11,16 @@ int main(){
     
     int top = 0, bottom = row-1;
     int left = 0, right = col-1;
-    
     // Traverse top row
     for(int i = left; i <= right; i++){
         cout << matrix[top][i] << " ";
     }
     top++;
-    
     // Traverse right column
     for(int i = top; i <= bottom; i++){
         cout << matrix[i][right] << " ";
     }
     right--;
-    
     // Traverse bottom row
     if(top <= bottom){
         for(int i = right; i >= left; i--){
@@ -31,7 +28,6 @@ int main(){
         }
         bottom--;
     }
-    
     // Traverse left column
     if(left <= right){
         for(int i = bottom; i >= top; i--){
