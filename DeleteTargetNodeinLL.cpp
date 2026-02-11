@@ -49,5 +49,4 @@ int main(){
     display(a);
     deletetheval(a,10);
     display(a);
-
 }
