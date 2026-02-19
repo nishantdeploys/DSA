@@ -5,7 +5,7 @@ int main(){
     // lower bound
 
     vector<int> v = {10,20,30,40,50};
-
+u
     auto it = lower_bound(v.begin(),v.end(),30);
 
     cout << *it << endl;
@@ -16,7 +16,8 @@ int main(){
 
     vector<int> vec = {10,20,30,40,50};
 
-    auto itr = upper_bound(vec.begin(),vec.end(),30);
+    auto itr = upper_bound(vec.begin(),v.end(),30);
 
     cout << *itr << endl;
 }
+
