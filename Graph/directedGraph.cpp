@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-//Directed Graph
+//unDirected weigheted Graph
 int main(){
     int vertex , edges;
     cin >> vertex >> edges;

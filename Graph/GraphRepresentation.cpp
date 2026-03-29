@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-//undirected weighted graph
+//undirected unweighted graph
 int main(){
     int vertex,edges;
     cin >> vertex >> edges;
