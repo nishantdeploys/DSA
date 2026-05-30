@@ -51,6 +51,7 @@ using namespace std;
 vector<int> rotate(vector<int>& nums,int k){
     vector<int> ans;
     int n = nums.size();
+    k%=n;
     for(int i=n-k;i<n;i++){
         ans.push_back(nums[i]);
     }
